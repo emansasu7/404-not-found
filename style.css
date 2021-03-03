@@ -1,0 +1,112 @@
+/* GENERAL STYLING */
+
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata&family=Space+Mono:wght@400;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  columns: #333;
+  font-family: "Space Mono", monospace;
+  margin: auto;
+  width: 90%;
+}
+.logo-container {
+  padding: 30px 0;
+}
+.logo-container h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+.content {
+  display: flex;
+  margin-top: 50px;
+}
+
+.cover,
+.intro-text {
+  flex: 1;
+}
+.cover {
+  height: 60vh;
+}
+.cover img {
+  height: 100%;
+  animation: drop-left 1.5s ease;
+}
+.intro-text {
+  animation: drop-right 1.5s ease-in;
+}
+.intro-text h1 {
+  font-size: 64px;
+  margin-bottom: 30px;
+  animation: drop-right 2s ease-in;
+}
+.intro-text p {
+  font-size: 24px;
+  line-height: 2;
+  margin-bottom: 30px;
+}
+button {
+  background-color: #333;
+  border: 2px solid #333;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  height: 60px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  width: 160px;
+  animation: drop-right 2.5s ease-in;
+}
+
+button:hover {
+  background-color: transparent;
+  color: #333;
+}
+
+@media screen and (max-width: 425px) {
+  /* body {
+    width: 100%;
+  } */
+  .content {
+    flex-direction: column;
+  }
+  .cover img {
+    height: 90%;
+    margin: 0 20px;
+  }
+
+  .intro-text h1 {
+    font-size: 40px;
+    margin: 30px 0;
+  }
+  .intro-text p {
+    font-size: 18px;
+  }
+}
+
+/* ANIMATIONS */
+@keyframes drop-left {
+  0% {
+    opacity: 0;
+    transform: translateX(-80px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes drop-right {
+  0% {
+    opacity: 0;
+    transform: translateX(80px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
