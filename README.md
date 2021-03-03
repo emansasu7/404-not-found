@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://404-not-found-ashy.vercel.app">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/emansasu7/404-not-found.git">
       Solution
     </a>
     <span> | </span>
@@ -49,9 +49,11 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [React](https://reactjs.org/)
+HTML + Pure CSS
+
+<!-- - [React](https://reactjs.org/)
 - [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [Tailwind](https://tailwindcss.com/) -->
 
 ## Features
 
@@ -69,6 +71,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- [Portfolio](https://emansasu.netlify.app/)
+- [GitHub Link](https://github.com/emansasu7)
+- [Twitter - @eman_sasu7](https://twitter.com/eman_sasu7)
